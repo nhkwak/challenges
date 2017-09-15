@@ -1,0 +1,36 @@
+body {
+  background: lightyellow;
+}
+
+h1{
+  color: orange;
+  background-color:;
+  font-size: 50px;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+h2{
+  color: orange;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+h3{
+  color: grey;
+  font-family: sans-serif;
+}
+
+p{
+  color: grey;
+}
+
+li{
+  color: grey;
+}
+
+body{
+  margin-left: 20px;
+  margin-bottom: auto;
+  margin-top: auto;;
+}

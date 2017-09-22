@@ -1,0 +1,77 @@
+body {
+  background: white;
+}
+
+h1{
+  color: orange;
+  background-color:;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+h2{
+  color: orange;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+h3 {
+  color: grey;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+p{
+  color: grey;
+}
+
+li{
+  color: grey;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Intro{
+  color: grey;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  justify-content: top;
+  align-items: center;
+}
+
+.intro_p{
+  padding-left: 20px;
+}
+
+.ingandpre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingredients{
+  background: lightyellow;
+  box-sizing: content-box;
+  border-width: 10px;
+  width: 200px;
+  color:grey;
+  padding: 10px;
+  margin:20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.instructions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: right;
+  justify-content: right;
+}

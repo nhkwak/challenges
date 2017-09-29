@@ -1,0 +1,66 @@
+body {
+  font-family: helvetica, sans-serif;
+  font-size: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+h1 {
+  font-size: 50px;
+  border-bottom: 4px solid;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.light {
+  font-weight: lighter;
+  padding: 0px;
+  margin: 0px;
+}
+
+.regular {
+  font-weight: normal;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.caption{
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.one{
+  background-color: #FFF4EA;
+  padding-bottom: 30px;
+}
+
+.two{
+  padding-top: 20px;
+  background-color: #92ADB2;
+}
+
+.two{
+  font-weight: normal;
+}
+
+.three{
+  background-color: #FFFF;
+  margin-bottom: 30px;
+}
+
+.four {
+  background-color: #B29880;
+  padding-bottom: 30px;
+}
+
+.five{
+  background-color: #EAFBFF;
+  padding-bottom: 30px;
+}

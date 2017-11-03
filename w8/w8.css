@@ -1,0 +1,128 @@
+/* ========================================
+ * Setup Styles ======================================== */
+
+body {
+  margin: 0;
+  font-size: 40rem;
+  font-family: helvetica;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+
+div {
+  cursor: crosshair;
+  margin: 1rem
+}
+
+
+/* ========================================
+ * Create a button with an animated hover state using the CSS transition property.
+ * ======================================== */
+
+.button {
+  width: 150px;
+  height: 100px;
+  padding: 20px;
+  background-color: green;
+
+}
+
+.button {
+  transition-property: all;
+  transition-duration: 1s
+}
+
+.button:hover {
+   background-color: red;
+   cursor: pointer;
+}
+
+
+/* ========================================
+ * Animate a verb using the CSS animation property. For example, bounce, jump, spin, etc.
+ * ======================================== */
+.crash{
+  font-size: 80px;
+}
+ .crash{
+   animation:
+  pulse 3s ease infinite alternate,
+  nudge 5s linear infinite alternate;
+border-radius: 100%;
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0px, 0);
+  }
+
+  80% {
+    transform: translate(600px, 0);
+  }
+
+  50% {
+    transform: translate(-200px, 0);
+  }
+}
+
+/* ==================
+* WHEN I APPLIED VERTICAL NUDGE ON .BOUNCE, IT OVER-RIDED CRASH's. IS THERE A WAY TO CROSS OUT THIS CSS OVERRIDING NATURE? * SEE BELOW
+============================= */
+
+.bounce{
+  font-size: 50px;
+  color: red;
+}
+
+.bounce{
+   animation:
+  pulse 3s ease infinite alternate,
+  nudge 5s linear infinite alternate;
+border-radius: 100%;
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0px, 0);
+  }
+
+  80% {
+    transform: translate(0px, 150px);
+  }
+
+  50% {
+    transform: translate(0px, -150px);
+  }
+}
+
+/*======================================== */
+.see{
+  font-size: 100px;
+}
+.see {
+  animation-name: multi-fade;
+  animation-duration: 40s;
+  animation-timing-function: ease-out;
+  animation-delay: 400ms;
+  animation-iteration-count: inifinite;
+}
+
+@keyframes multi-fade {
+  0% {
+    color: white;
+  }
+  50% {
+    color: grey;
+  }
+  100% {
+    color: black;
+  }
+}

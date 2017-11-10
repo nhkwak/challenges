@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*CSS starts here*/
+
+/*Setting link for fonts*/
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('Fonts/Avenir.ttc'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../Fonts/Avenir.ttc')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'LoveloBlack';
+  src: url('Fonts/Lovelo Black.otf'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/*////////////////formatting for desktop/////////////////*/
+
+/* Desktops and laptops ----------- */
+/*@media only screen  and (min-width : 1224px){*/
+
+body{
+  display: flex;
+  margin-top: 25vh;
+  margin-left: 2vw;
+  flex-direction: column;
+  background-color: #B99AE5;this one is lighter shade
+  /*background-color: #A185C9;*/
+}
+
+.firstname{
+  height: 40%;
+}
+
+.lastnameandnav{
+  font-family: "Avenir", "LoveloBlack", sans-serif;
+  font-weight: normal;
+  color: #DAD2E5;
+  line-height: 0.8;
+  display: flex;
+  flex-direction: row;
+}
+
+#h1{
+  font-size: 170px;
+  color: white;
+  /*color: #DAD2E5;*/
+}
+
+.nav{
+  font-size: 17px;
+  font-weight: lighter;
+  padding-left: 20px;
+  line-height: 2;
+  transform: hover;
+}
+}
+
+/* iPhones (portrait and landscape) ----------- */
+@media only screen and (min-width : 750px) {
+
+  body{
+    display: flex;
+    margin-top: 25vh;
+    margin-left: 2vw;
+    flex-direction: column;
+    background-color: #B99AE5;this one is lighter shade
+    /*background-color: #A185C9;*/
+  }
+
+  .firstname{
+    height: 20vw;
+  }
+
+  .lastnameandnav{
+    font-family: "Avenir", "LoveloBlack", sans-serif;
+    font-weight: normal;
+    color: #DAD2E5;
+    line-height: 0.8;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #h1{
+    font-size: 80px;
+    color: white;
+    /*color: #DAD2E5;*/
+  }
+
+  .nav{
+    font-size: 15px;
+    font-weight: lighter;
+    /*padding-left: 20px;*/
+    line-height: 2;
+  }
+  }

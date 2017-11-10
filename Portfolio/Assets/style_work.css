@@ -1,0 +1,199 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*CSS starts here*/
+
+/*Setting link for fonts*/
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('Fonts/Avenir.ttc'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../Fonts/Avenir.ttc')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/*formatting*/
+
+body{
+  display: flex;
+  font-family: "Avenir", sans-serif;
+  /*margin-top: 25vh;
+  margin-left: 2vw;*/
+  /*flex-direction: column;*/
+  /*background-color: #B99AE5;this one is lighter shade*/
+  /*background-color: #A185C9;*/
+}
+
+/*/////////*sidebar START///////////*/
+
+.sidebarfix{
+  position: fixed;
+  padding: 3vh;
+  background-color: #B99AE5;
+}
+
+.namefix{
+  font-size: 30px;
+  line-height: 0.9;
+  /*background-color: #B99AE5;*/
+  /*padding: 3vh;*/
+}
+
+/*namefix detail*/
+
+h1{
+  font-weight: bold;
+  font-size:
+}
+h2{
+  font-weight: 600;
+}
+h3{
+  font-weight: lighter;
+  font-size: 25px;
+  border-bottom: solid;
+  border-width: thin;
+  padding-bottom: 20px;
+}
+
+/*nav*/
+
+.nav{
+  margin-top: 20px;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 2;
+}
+
+/*/////////*sidebar END///////////*/
+
+/*/////////*css for work.html BELOW///////////*/
+
+.work{
+  width: 960px;
+  margin: 15vh;
+  display: flex;
+  flex-flow: column;
+}
+
+.col1{
+  padding: 5px;
+}
+
+.col2{
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.col3{
+  padding: 5px;
+}
+
+.workoverlay:hover .overlay{
+  color: #B99AE5;
+}
+/*///////////////css for about.html BELOW /////////////*/
+.container{
+  width: 960px;
+  margin: 15vh;
+  display: flex;
+  flex-flow: row;
+}
+
+.p{
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 80px;
+}
+
+#intro{
+  font-weight: bold;
+}
+
+.tag{
+  font-size: 20px;
+  line-height: normal;
+}
+
+/*///////////////css for archive.html BELOW /////////////*/
+
+.words{
+  font-size: 170px;
+  font-weight: bold;
+  margin-top: 15vh;
+  margin-left: 200px;
+  line-height: 1;
+}
+
+.links{
+  color: black;
+}
+
+.links:hover {
+  background-color: #B99AE5;
+}
+
+/*///////////////css for general workpages BELOW /////////////*/
+
+.content{
+  padding: 3px;
+}
+
+.content_p{
+  line-height: 2;
+  padding: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 45px;
+}
+
+/*/////////////////////DONEEEE//////////////////*/

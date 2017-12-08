@@ -21,27 +21,35 @@
       </div>
 
       <!-- Search Box -->
-      <form id="location-search" class="pa4">
+      <!-- <form id="location-search" class="pa4">
         <h1 class="flex flex-wrap items-baseline">
           <span class="mr3 mb2">
-            Weather for:
+            In:
           </span>
           <input type="text" id="area" value="Boston" class="flex-auto">
         </h1>
-      </form>
+      </form> -->
 
       <!-- Content -->
 
-      <div class="flex flex-wrap pa4">
+      <div class="flex flex-wrap">
 <!-- w-third-l -->
-        <div class="w-100 w-50-l pa2">
+        <div class="w-100 w-50-l">
+          <form id="location-search" class="pa4">
+            <h1 class="flex flex-wrap items-baseline">
+              <span class="mr3 mb2">
+                In:
+              </span>
+              <input type="text" id="area" value="Boston" class="flex-auto">
+            </h1>
+          </form>
           <!-- <h2>Temperature</h2> -->
           <p class="currentemp"><span id="temp"></span>&#8457;</p>
           <!-- maxandmin -->
           <!-- <p class="maxandmin"><span id="temp-min"></span>&lt; current temp &lt;<span id="temp-max"></span></p> -->
         </div>
 
-        <div class="info w-100 w-50-l pa2 br4">
+        <div class="info w-100 w-50-l pa2">
           <!-- <h2>Location</h2> -->
           <p class="location"><span id="location-name"></span></p>
           <p><span id="country"></span></p>

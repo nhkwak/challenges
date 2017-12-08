@@ -9,15 +9,16 @@
 }
 
 .info{
-  background-color: white;
+  /*background-color: white;*/
   text-align: center;
-  color: black;
-  box-shadow: black;
+  /*color: black;*/
   font-size: 20px;
+  padding-top: 150px;
 }
 
 #temp{
-  font-size: 300px;
+  font-size: 320px;
+
 }
 
 #location-name{
@@ -38,6 +39,7 @@
 
 .warm{
   background:linear-gradient(#f2c37c,#f386cd);
+  max-width: 50%;
 }
 
 .hot{
@@ -48,6 +50,6 @@
   background:linear-gradient(#27c47e,#5e45ba);
 }
 
-.rain{
-  background-image: url(/"test.jpg");
-}
+/*.breezy{
+  background-image: url("/test.jpg");
+}*/

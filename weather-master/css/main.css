@@ -2,14 +2,35 @@
  * CSS written here will override Tachyons
  * ======================================== */
 
-body{
-  margin: 50px;
-}
-
 .currentemp{
   font-size: 100px;
+  text-shadow: 4px 6px black;
+  text-align: center;
 }
 
 #temp{
   font-size: 300px;
+}
+
+#location-name{
+  font-size: 50px;
+}
+
+#country{
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+/*temperature conditions*/
+
+.warm{
+  background:linear-gradient(#f2c37c,#f386cd);
+}
+
+.hot{
+  background:linear-gradient(#e95657,#5e45ba);
+}
+
+.cold{
+  background:linear-gradient(#27c47e,#5e45ba);
 }

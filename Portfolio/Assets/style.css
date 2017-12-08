@@ -108,7 +108,7 @@ body{
   font-weight: lighter;
   padding-left: 20px;
   line-height: 2;
-  transform: hover;
+  /*transform: hover;*/
 }
 }
 

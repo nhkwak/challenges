@@ -8,18 +8,31 @@
   text-align: center;
 }
 
+.info{
+  background-color: white;
+  text-align: center;
+  color: black;
+  box-shadow: black;
+  font-size: 20px;
+}
+
 #temp{
   font-size: 300px;
 }
 
 #location-name{
-  font-size: 50px;
+  font-size: 130px;
 }
 
 #country{
-  font-size: 30px;
+  font-size: 50px;
   padding-bottom: 10px;
 }
+
+.location{
+  font-weight: bolder;
+}
+
 
 /*temperature conditions*/
 
@@ -33,4 +46,8 @@
 
 .cold{
   background:linear-gradient(#27c47e,#5e45ba);
+}
+
+.rain{
+  background-image: url(/"test.jpg");
 }

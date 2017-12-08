@@ -1,0 +1,15 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+
+body{
+  margin: 50px;
+}
+
+.currentemp{
+  font-size: 100px;
+}
+
+#temp{
+  font-size: 300px;
+}
